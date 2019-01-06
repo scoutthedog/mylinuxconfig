@@ -1,0 +1,4 @@
+[2019-01-02 14:22:01.974] [renderer1] [info] no standard startup: not just one text editor
+[2019-01-02 14:22:17.889] [renderer1] [info] no standard startup: not just one text editor
+[2019-01-02 14:24:20.755] [renderer1] [error] doSave(69) - exit - resulted in a save error: Error: Permission denied writing to file (file:///srv/http/cferv/api/config/database.php) {"$mid":1,"fsPath":"/srv/http/cferv/api/config/database.php","external":"file:///srv/http/cferv/api/config/database.php","path":"/srv/http/cferv/api/config/database.php","scheme":"file"}
+[2019-01-02 14:24:24.656] [renderer1] [error] doSave(69) - exit - resulted in a save error: Error: Permission denied writing to file (file:///srv/http/cferv/api/config/database.php) {"$mid":1,"fsPath":"/srv/http/cferv/api/config/database.php","external":"file:///srv/http/cferv/api/config/database.php","path":"/srv/http/cferv/api/config/database.php","scheme":"file"}

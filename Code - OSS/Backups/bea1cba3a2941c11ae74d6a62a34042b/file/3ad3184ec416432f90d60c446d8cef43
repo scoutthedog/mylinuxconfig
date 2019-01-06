@@ -1,0 +1,25 @@
+file:///srv/http/cferv/api/config/varchecker.php
+<?php
+// this file is to verify that the variant that the user is requesting is actually one that exists
+// this is mostly for security
+header("Content-Type: application/json, charset=UTF-8");
+
+//***include this file with a variant variable already declared***
+
+$database = new Database();
+$db = $database->getConnection();
+$query = "SELECT DISTINCT Variant FROM human_variants_table UNION SELECT DISTINCT Variant FROM varoocytes";
+$stmt = $db->prepare($query);
+$stmt->execute();
+
+$human_variants = array();
+foreach ($stmt as $result) {
+    $varname = $result["Variant"];
+    array_push($human_variants, $varname);
+}
+if (in_array($variant, $human_variants)) {
+    $valid = TRUE;
+} else {
+    $valid = FALSE;
+}
+?>`

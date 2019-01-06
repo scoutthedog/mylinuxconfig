@@ -1,0 +1,45 @@
+{
+    "telemetry.machineId": "57dd3b3e8f5e8eeaf4164aa081b297027d34b35032667a8357e4585731f46b20",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///srv/http/cferv"
+        ],
+        "files2": [
+            "file:///home/james/Downloads/diceware.wordlist.asc",
+            "file:///home/james/.config/i3/config",
+            "file:///home/james/index.html",
+            "file:///home/james/.config/i3status/config",
+            "file:///home/james/.config/rofi/config",
+            "file:///home/james/.config/termite/config",
+            "file:///home/james/.config/compton.conf",
+            "file:///home/james/scripts/kbrdre.sh",
+            "file:///home/james/scripts/keyboardcon.sh",
+            "file:///home/james/keyboardcon.sh",
+            "file:///home/james/scripts/chwifi.sh",
+            "file:///etc/systemd/system/keyboardcon.service"
+        ]
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/srv/http/cferv",
+                "external": "file:///srv/http/cferv",
+                "path": "/srv/http/cferv",
+                "scheme": "file"
+            },
+            "backupPath": "/home/james/.config/Code - OSS/Backups/bea1cba3a2941c11ae74d6a62a34042b",
+            "uiState": {
+                "mode": 1,
+                "x": 578,
+                "y": 5,
+                "width": 857,
+                "height": 867
+            }
+        }
+    },
+    "pickerWorkingDir": "/srv/http"
+}

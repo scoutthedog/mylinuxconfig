@@ -1,0 +1,2 @@
+[2019-01-03 00:01:38.880] [renderer1] [info] no standard startup: not running latest version
+[2019-01-03 00:02:48.761] [renderer1] [error] doSave(6) - exit - resulted in a save error: Error: Permission denied writing to file (file:///srv/http/cferv/api/config/varchecker.php) {"$mid":1,"fsPath":"/srv/http/cferv/api/config/varchecker.php","external":"file:///srv/http/cferv/api/config/varchecker.php","path":"/srv/http/cferv/api/config/varchecker.php","scheme":"file"}
